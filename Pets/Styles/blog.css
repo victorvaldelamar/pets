@@ -1,0 +1,31 @@
+/* Styling the "blog" sections*/
+#blog h3,h4{
+    text-align: center;
+}
+
+.blog_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+       
+    
+}
+
+#blog article{
+    margin: 15px;
+}
+
+#blog img{
+    width: 100%;
+    max-width: 280px;
+    height: 100px;
+}
+
+/* Making it responsive*/
+@media (min-width:1024px){
+    #blog img{
+        height:200px
+    }
+
+}
